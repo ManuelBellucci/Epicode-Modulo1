@@ -153,11 +153,15 @@ footer img {
     object-fit:fill;
 }
 
+.images2 figcaption {
+    font-weight:600;
+}
+
 #img__container1 {
     background-color: #fff;
     margin-top: 30px;
     padding: 1px 20px;
-    height: 500px;
+    height: 475px;
 }
 
 #img__container2 {
