@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    background-color: #EAEDED;
+}
+
+main {
+    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+li {
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+    margin-left: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+}
+
+footer .dark__bg {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    margin: 0;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+footer img {
+    height: 70px;
+}
+
+.dark__bg {
+    background-color: #222F3E;
+}
+
+.low__dark-bg {
+    background-color: #354758;
+    color: #fff;
+}
+
+.orange__bg {
+    background-color: #F56600;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+.logo__container {
+    padding-left: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 40px;
+}
+
+.orange__bg p {
+    margin: 0;
+}
+
+.bg__img-container {
+    font-size: large;
+    background-image: url(assets/bg-image.png);
+    background-size: 92%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.titles__container {
+    padding-top: 40px;
+}
+
+
+.images img {
+    height: 400px;
+    width: 200px;
+    border-radius: 7%;
+    margin: 10px;
+    
+}  
+
+.images {
+    display: flex;
+  }
+
+.img1 {
+    flex-grow:1; 
+    object-fit: cover;
+}
+
+.img2 {
+    flex-grow:1;
+    object-fit: cover;
+}
+
+.img3 {
+    flex-grow:1;
+    object-fit: cover;
+}
+
+.img4 {
+    flex-grow:1;
+    object-fit: cover;
+}
+
+.tiny__titles {
+    color: #4093A2;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.images2 img {
+    height: 300px;
+    width: 100%;
+    object-fit:fill;
+}
+
+#img__container1 {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 1px 20px;
+    height: 500px;
+}
+
+#img__container2 {
+    margin-top: 30px;
+}
