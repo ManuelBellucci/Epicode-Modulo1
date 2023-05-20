@@ -35,7 +35,7 @@ h4 {
     text-align: center;
 }
 
-figcaption {
+div.images2 figcaption {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -140,12 +140,12 @@ footer img {
     object-fit: cover;
 }
 
-.tiny__titles {
-    color: #4093A2;
+/* .tiny__titles {
+    color: #1f40aa;
     font-size: small;
     font-weight: bold;
     padding-left: 10px;
-}
+} */
 
 .images2 img {
     height: 300px;
@@ -166,4 +166,27 @@ footer img {
 
 #img__container2 {
     margin-top: 30px;
+}
+
+#img__container3{
+    margin-top: 40px;   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img__container3 h3 {
+    padding-left: 36px;
+}
+
+.card {
+    display: inline-block;
+    background: #FFF;
+    width: 25%;
+    margin: 10px;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
 }
