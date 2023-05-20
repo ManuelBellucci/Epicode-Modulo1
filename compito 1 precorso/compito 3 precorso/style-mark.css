@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.body-mark {
+    font-family: 'Montserrat';
+    margin: 0
+}
+
+.main-section-mark {
+    padding: 20px;
+}
+
+.image-container-mark {
+    height: 500px;
+    background-image: url(photo_marktwain.jpg);
+}
+
+.header {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.image-region-mark {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p { 
+    font-weight: 600;
+    font-style: italic;
+}
+
+#smallheader {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(to right, green, gray);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    text-decoration: none;
+}
+
+.list-mark {
+    text-decoration: none;
+    color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
